@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/*.csv
+data/*.xlsx
+data/raw/
+output/*
+!output/.gitkeep
+.DS_Store
+.env
+.streamlit/secrets.toml
