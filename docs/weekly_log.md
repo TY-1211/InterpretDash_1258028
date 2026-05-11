@@ -125,7 +125,8 @@
      之前提及過若資料集比例極端會使模型不穩定，比例過度失衡會導致模型追求整體準確率而將大部分機率預測為負例，直接造成 AUC 下降，因模型偏差失去區分的罕見正例能力。
      特徵與樣本數影響模型的學習容量，若特徵數遠大於樣本數，EBM 的函數會變得過複雜，即使訓練 AUC 很高，但是測試集表現會崩潰。  
 
-- Q2：在 GAM Changer 裡，asthma 的 shape function 長什麼樣？（asthma = 1 時，y 軸方向是什麼？）
+- Q2：在 GAM Changer 裡，asthma 的 shape function 長什麼樣？
+    （asthma = 1 時，y 軸方向是什麼？）
      當 asthma = 1 時，y軸數值約為-0.2 ，而 asthma = 0~1 之間時，皆為 -0.2。
     ![Ｃaruana論文](figures/Screenshot%202026-04-13%20at%2023.26.25.png)
 
