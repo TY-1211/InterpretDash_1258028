@@ -1,0 +1,4202 @@
+[
+  {
+    "patient_id": 0,
+    "raw_features": {
+      "gender": "Male",
+      "age": 80.0,
+      "hypertension": 0,
+      "heart_disease": 1,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 125.32,
+      "bmi": 32.9,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 80.0,
+        "bin_id": 101,
+        "score": 2.231245213788227
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 1,
+        "bin_id": 1,
+        "score": -0.033956026594095946
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 125.32,
+        "bin_id": 822,
+        "score": 0.08548704049918458
+      },
+      "bmi": {
+        "raw_value": 32.9,
+        "bin_id": 197,
+        "score": 0.07166901213029417
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.23322270073578216,
+    "manual_reconstructed_proba": 0.08861919074314772,
+    "actual_label": null
+  },
+  {
+    "patient_id": 1,
+    "raw_features": {
+      "gender": "Female",
+      "age": 42.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 84.03,
+      "bmi": 31.4,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 42.0,
+        "bin_id": 63,
+        "score": 0.3398754969780871
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 84.03,
+        "bin_id": 382,
+        "score": -0.15424119406118206
+      },
+      "bmi": {
+        "raw_value": 31.4,
+        "bin_id": 182,
+        "score": 0.07597453610413023
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.019969178055530494,
+    "manual_reconstructed_proba": 0.012820886225198024,
+    "actual_label": null
+  },
+  {
+    "patient_id": 2,
+    "raw_features": {
+      "gender": "Male",
+      "age": 66.0,
+      "hypertension": 1,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 74.9,
+      "bmi": 32.1,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 66.0,
+        "bin_id": 87,
+        "score": 1.362173577461185
+      },
+      "hypertension": {
+        "raw_value": 1,
+        "bin_id": 1,
+        "score": -0.06335893147709369
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 74.9,
+        "bin_id": 230,
+        "score": -0.029206459008474975
+      },
+      "bmi": {
+        "raw_value": 32.1,
+        "bin_id": 189,
+        "score": 0.07717194414136222
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.09019829387388295,
+    "manual_reconstructed_proba": 0.03918320503116734,
+    "actual_label": null
+  },
+  {
+    "patient_id": 3,
+    "raw_features": {
+      "gender": "Male",
+      "age": 29.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Govt_job",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 102.4,
+      "bmi": 26.9,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 29.0,
+        "bin_id": 50,
+        "score": -1.5917678130295019
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Govt_job",
+        "bin_id": 1,
+        "score": -0.026311113656796288
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 102.4,
+        "bin_id": 656,
+        "score": -0.0349966704282713
+      },
+      "bmi": {
+        "raw_value": 26.9,
+        "bin_id": 137,
+        "score": 0.09594051370176614
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.0017806284432717893,
+    "manual_reconstructed_proba": 0.0027439404475184904,
+    "actual_label": null
+  },
+  {
+    "patient_id": 4,
+    "raw_features": {
+      "gender": "Male",
+      "age": 47.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 88.49,
+      "bmi": 22.2,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 47.0,
+        "bin_id": 68,
+        "score": 0.692350753885475
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 88.49,
+        "bin_id": 457,
+        "score": -0.1324180280390072
+      },
+      "bmi": {
+        "raw_value": 22.2,
+        "bin_id": 90,
+        "score": -0.018965446951162326
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.021846494794845853,
+    "manual_reconstructed_proba": 0.020616774597539227,
+    "actual_label": null
+  },
+  {
+    "patient_id": 5,
+    "raw_features": {
+      "gender": "Male",
+      "age": 66.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 108.03,
+      "bmi": 27.2,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 66.0,
+        "bin_id": 87,
+        "score": 1.362173577461185
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 108.03,
+        "bin_id": 708,
+        "score": -0.0031371495563458484
+      },
+      "bmi": {
+        "raw_value": 27.2,
+        "bin_id": 140,
+        "score": 0.0985049173852296
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.07387814437082275,
+    "manual_reconstructed_proba": 0.04349716435762331,
+    "actual_label": null
+  },
+  {
+    "patient_id": 6,
+    "raw_features": {
+      "gender": "Male",
+      "age": 14.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 77.12,
+      "bmi": 24.5,
+      "smoking_status": "formerly smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 14.0,
+        "bin_id": 35,
+        "score": -1.8468677331968828
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 77.12,
+        "bin_id": 259,
+        "score": -0.025034609029432574
+      },
+      "bmi": {
+        "raw_value": 24.5,
+        "bin_id": 113,
+        "score": 0.06547714402995453
+      },
+      "smoking_status": {
+        "raw_value": "formerly smoked",
+        "bin_id": 2,
+        "score": 0.0772991020183794
+      }
+    },
+    "ebm_predict_proba": 0.0012029775612445903,
+    "manual_reconstructed_proba": 0.0018585764431185176,
+    "actual_label": null
+  },
+  {
+    "patient_id": 7,
+    "raw_features": {
+      "gender": "Female",
+      "age": 54.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 109.27,
+      "bmi": 43.8,
+      "smoking_status": "formerly smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 54.0,
+        "bin_id": 75,
+        "score": 0.8749281558100953
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 109.27,
+        "bin_id": 719,
+        "score": 0.006267843755631814
+      },
+      "bmi": {
+        "raw_value": 43.8,
+        "bin_id": 303,
+        "score": 0.022756359457821607
+      },
+      "smoking_status": {
+        "raw_value": "formerly smoked",
+        "bin_id": 2,
+        "score": 0.0772991020183794
+      }
+    },
+    "ebm_predict_proba": 0.03814325996792247,
+    "manual_reconstructed_proba": 0.025802358396999542,
+    "actual_label": null
+  },
+  {
+    "patient_id": 8,
+    "raw_features": {
+      "gender": "Female",
+      "age": 51.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 95.7,
+      "bmi": 24.8,
+      "smoking_status": "formerly smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 51.0,
+        "bin_id": 72,
+        "score": 0.8287005546704309
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 95.7,
+        "bin_id": 568,
+        "score": -0.09153448841506001
+      },
+      "bmi": {
+        "raw_value": 24.8,
+        "bin_id": 116,
+        "score": 0.0681681047876011
+      },
+      "smoking_status": {
+        "raw_value": "formerly smoked",
+        "bin_id": 2,
+        "score": 0.0772991020183794
+      }
+    },
+    "ebm_predict_proba": 0.028006226921538122,
+    "manual_reconstructed_proba": 0.02549486470274559,
+    "actual_label": null
+  },
+  {
+    "patient_id": 9,
+    "raw_features": {
+      "gender": "Male",
+      "age": 41.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 108.71,
+      "bmi": 24.0,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 41.0,
+        "bin_id": 62,
+        "score": 0.3193050276548053
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 108.71,
+        "bin_id": 715,
+        "score": 0.005845637562631201
+      },
+      "bmi": {
+        "raw_value": 24.0,
+        "bin_id": 108,
+        "score": 0.060226355102641876
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.015221759151463449,
+    "manual_reconstructed_proba": 0.015353508809755525,
+    "actual_label": null
+  },
+  {
+    "patient_id": 10,
+    "raw_features": {
+      "gender": "Female",
+      "age": 73.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 87.56,
+      "bmi": 24.1,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 73.0,
+        "bin_id": 94,
+        "score": 1.8756422354895586
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 87.56,
+        "bin_id": 443,
+        "score": -0.1349449233798407
+      },
+      "bmi": {
+        "raw_value": 24.1,
+        "bin_id": 109,
+        "score": 0.06156304160552995
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.05822461586109531,
+    "manual_reconstructed_proba": 0.04648053959196759,
+    "actual_label": null
+  },
+  {
+    "patient_id": 11,
+    "raw_features": {
+      "gender": "Female",
+      "age": 70.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 76.34,
+      "bmi": 24.4,
+      "smoking_status": "formerly smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 70.0,
+        "bin_id": 91,
+        "score": 1.8181182853494722
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 76.34,
+        "bin_id": 249,
+        "score": -0.026191320588245696
+      },
+      "bmi": {
+        "raw_value": 24.4,
+        "bin_id": 112,
+        "score": 0.06488845661961684
+      },
+      "smoking_status": {
+        "raw_value": "formerly smoked",
+        "bin_id": 2,
+        "score": 0.0772991020183794
+      }
+    },
+    "ebm_predict_proba": 0.06419751083640667,
+    "manual_reconstructed_proba": 0.04813496688055835,
+    "actual_label": null
+  },
+  {
+    "patient_id": 12,
+    "raw_features": {
+      "gender": "Female",
+      "age": 39.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 83.51,
+      "bmi": 26.4,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 39.0,
+        "bin_id": 60,
+        "score": -1.4541170894091855
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 83.51,
+        "bin_id": 372,
+        "score": -0.15684933237835172
+      },
+      "bmi": {
+        "raw_value": 26.4,
+        "bin_id": 132,
+        "score": 0.09018510528307574
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.01395146494038198,
+    "manual_reconstructed_proba": 0.0021841273550228003,
+    "actual_label": null
+  },
+  {
+    "patient_id": 13,
+    "raw_features": {
+      "gender": "Male",
+      "age": 9.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 60.39,
+      "bmi": 16.4,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 9.0,
+        "bin_id": 30,
+        "score": -1.8978149484768478
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 60.39,
+        "bin_id": 42,
+        "score": -0.10914901444833322
+      },
+      "bmi": {
+        "raw_value": 16.4,
+        "bin_id": 32,
+        "score": -0.6929692564709627
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.000615239876331139,
+    "manual_reconstructed_proba": 0.0007152976439141417,
+    "actual_label": null
+  },
+  {
+    "patient_id": 14,
+    "raw_features": {
+      "gender": "Female",
+      "age": 70.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 96.82,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 70.0,
+        "bin_id": 91,
+        "score": 1.8181182853494722
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 96.82,
+        "bin_id": 582,
+        "score": -0.08492103828321686
+      },
+      "bmi": {
+        "raw_value": 25.0,
+        "bin_id": 118,
+        "score": 0.06937509887294395
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.052525127633763324,
+    "manual_reconstructed_proba": 0.0428141929589877,
+    "actual_label": null
+  },
+  {
+    "patient_id": 15,
+    "raw_features": {
+      "gender": "Female",
+      "age": 54.0,
+      "hypertension": 1,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 221.83,
+      "bmi": 35.1,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 54.0,
+        "bin_id": 75,
+        "score": 0.8749281558100953
+      },
+      "hypertension": {
+        "raw_value": 1,
+        "bin_id": 1,
+        "score": -0.06335893147709369
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 221.83,
+        "bin_id": 978,
+        "score": 0.48048610898621213
+      },
+      "bmi": {
+        "raw_value": 35.1,
+        "bin_id": 219,
+        "score": 0.0701269058785454
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.12612684226754056,
+    "manual_reconstructed_proba": 0.04695176739662565,
+    "actual_label": null
+  },
+  {
+    "patient_id": 16,
+    "raw_features": {
+      "gender": "Female",
+      "age": 22.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 64.87,
+      "bmi": 20.6,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 22.0,
+        "bin_id": 43,
+        "score": -1.67393979939126
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 64.87,
+        "bin_id": 82,
+        "score": -0.08985903621745965
+      },
+      "bmi": {
+        "raw_value": 20.6,
+        "bin_id": 74,
+        "score": 0.12843972541081639
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.001040481423560327,
+    "manual_reconstructed_proba": 0.001693123241079561,
+    "actual_label": null
+  },
+  {
+    "patient_id": 17,
+    "raw_features": {
+      "gender": "Female",
+      "age": 45.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 120.56,
+      "bmi": 31.6,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 45.0,
+        "bin_id": 66,
+        "score": 0.39457031588763164
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 120.56,
+        "bin_id": 800,
+        "score": 0.06807452338529599
+      },
+      "bmi": {
+        "raw_value": 31.6,
+        "bin_id": 184,
+        "score": 0.07713780699401668
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.02608373590184194,
+    "manual_reconstructed_proba": 0.015490511506727835,
+    "actual_label": null
+  },
+  {
+    "patient_id": 18,
+    "raw_features": {
+      "gender": "Male",
+      "age": 54.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 111.37,
+      "bmi": 29.1,
+      "smoking_status": "formerly smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 54.0,
+        "bin_id": 75,
+        "score": 0.8749281558100953
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 111.37,
+        "bin_id": 737,
+        "score": 0.017535901053735082
+      },
+      "bmi": {
+        "raw_value": 29.1,
+        "bin_id": 159,
+        "score": 0.07070548472829419
+      },
+      "smoking_status": {
+        "raw_value": "formerly smoked",
+        "bin_id": 2,
+        "score": 0.0772991020183794
+      }
+    },
+    "ebm_predict_proba": 0.04639908131019219,
+    "manual_reconstructed_proba": 0.03142074517621731,
+    "actual_label": null
+  },
+  {
+    "patient_id": 19,
+    "raw_features": {
+      "gender": "Male",
+      "age": 45.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 97.12,
+      "bmi": 29.2,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 45.0,
+        "bin_id": 66,
+        "score": 0.39457031588763164
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 97.12,
+        "bin_id": 586,
+        "score": -0.0818024157241455
+      },
+      "bmi": {
+        "raw_value": 29.2,
+        "bin_id": 160,
+        "score": 0.07065378074996215
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.021539777416315676,
+    "manual_reconstructed_proba": 0.015323976417296586,
+    "actual_label": null
+  },
+  {
+    "patient_id": 20,
+    "raw_features": {
+      "gender": "Female",
+      "age": 45.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 80.93,
+      "bmi": 23.1,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 45.0,
+        "bin_id": 66,
+        "score": 0.39457031588763164
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 80.93,
+        "bin_id": 323,
+        "score": -0.16645119881503317
+      },
+      "bmi": {
+        "raw_value": 23.1,
+        "bin_id": 99,
+        "score": 0.030408196647239004
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.017845085370344183,
+    "manual_reconstructed_proba": 0.012804849634038962,
+    "actual_label": null
+  },
+  {
+    "patient_id": 21,
+    "raw_features": {
+      "gender": "Male",
+      "age": 37.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Govt_job",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 80.2,
+      "bmi": 30.9,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 37.0,
+        "bin_id": 58,
+        "score": -1.4868840070085834
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Govt_job",
+        "bin_id": 1,
+        "score": -0.026311113656796288
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 80.2,
+        "bin_id": 311,
+        "score": -0.16444418810257186
+      },
+      "bmi": {
+        "raw_value": 30.9,
+        "bin_id": 177,
+        "score": 0.07495305670118046
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.001648169296216107,
+    "manual_reconstructed_proba": 0.002082694545645246,
+    "actual_label": null
+  },
+  {
+    "patient_id": 22,
+    "raw_features": {
+      "gender": "Female",
+      "age": 74.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 203.01,
+      "bmi": 25.4,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 74.0,
+        "bin_id": 95,
+        "score": 1.9162963472379209
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 203.01,
+        "bin_id": 943,
+        "score": 0.42614316384349593
+      },
+      "bmi": {
+        "raw_value": 25.4,
+        "bin_id": 122,
+        "score": 0.07802439805766849
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.15549870227703724,
+    "manual_reconstructed_proba": 0.10940887474043927,
+    "actual_label": null
+  },
+  {
+    "patient_id": 23,
+    "raw_features": {
+      "gender": "Male",
+      "age": 49.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 62.64,
+      "bmi": 27.0,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 49.0,
+        "bin_id": 70,
+        "score": 0.7840573065009256
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 62.64,
+        "bin_id": 64,
+        "score": -0.10269707643875296
+      },
+      "bmi": {
+        "raw_value": 27.0,
+        "bin_id": 138,
+        "score": 0.0962772093533844
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.026772654998154972,
+    "manual_reconstructed_proba": 0.022561769701122187,
+    "actual_label": null
+  },
+  {
+    "patient_id": 24,
+    "raw_features": {
+      "gender": "Female",
+      "age": 43.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 98.09,
+      "bmi": 17.3,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 43.0,
+        "bin_id": 64,
+        "score": 0.3642290544462833
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 98.09,
+        "bin_id": 601,
+        "score": -0.07519039559464984
+      },
+      "bmi": {
+        "raw_value": 17.3,
+        "bin_id": 41,
+        "score": -0.6541275034659114
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.0035030445827241804,
+    "manual_reconstructed_proba": 0.005549539617135181,
+    "actual_label": null
+  },
+  {
+    "patient_id": 25,
+    "raw_features": {
+      "gender": "Male",
+      "age": 64.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 210.0,
+      "bmi": 30.7,
+      "smoking_status": "formerly smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 64.0,
+        "bin_id": 85,
+        "score": 1.3308930775031722
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 210.0,
+        "bin_id": 957,
+        "score": 0.4450210137175865
+      },
+      "bmi": {
+        "raw_value": 30.7,
+        "bin_id": 175,
+        "score": 0.07378167769790209
+      },
+      "smoking_status": {
+        "raw_value": "formerly smoked",
+        "bin_id": 2,
+        "score": 0.0772991020183794
+      }
+    },
+    "ebm_predict_proba": 0.05848508774161584,
+    "manual_reconstructed_proba": 0.050484829484551796,
+    "actual_label": null
+  },
+  {
+    "patient_id": 26,
+    "raw_features": {
+      "gender": "Female",
+      "age": 50.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 114.05,
+      "bmi": 32.5,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 50.0,
+        "bin_id": 71,
+        "score": 0.8087672404364433
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 114.05,
+        "bin_id": 766,
+        "score": 0.036486604037455066
+      },
+      "bmi": {
+        "raw_value": 32.5,
+        "bin_id": 193,
+        "score": 0.07251817060936898
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.02647911395399608,
+    "manual_reconstructed_proba": 0.024463650418368732,
+    "actual_label": null
+  },
+  {
+    "patient_id": 27,
+    "raw_features": {
+      "gender": "Female",
+      "age": 3.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 97.6,
+      "bmi": 25.8,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 3.0,
+        "bin_id": 24,
+        "score": -1.971585186203568
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 97.6,
+        "bin_id": 594,
+        "score": -0.07759567667421523
+      },
+      "bmi": {
+        "raw_value": 25.8,
+        "bin_id": 126,
+        "score": 0.08186139009784141
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.0007861111223706322,
+    "manual_reconstructed_proba": 0.001404402527998445,
+    "actual_label": null
+  },
+  {
+    "patient_id": 28,
+    "raw_features": {
+      "gender": "Male",
+      "age": 27.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 104.48,
+      "bmi": 36.4,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 27.0,
+        "bin_id": 48,
+        "score": -1.6242898332353601
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 104.48,
+        "bin_id": 678,
+        "score": -0.02115934489011116
+      },
+      "bmi": {
+        "raw_value": 36.4,
+        "bin_id": 232,
+        "score": 0.06892099727520384
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.0017141527219259349,
+    "manual_reconstructed_proba": 0.002526694585904785,
+    "actual_label": null
+  },
+  {
+    "patient_id": 29,
+    "raw_features": {
+      "gender": "Female",
+      "age": 55.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 63.47,
+      "bmi": 27.8,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 55.0,
+        "bin_id": 76,
+        "score": 1.0650527282788758
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 63.47,
+        "bin_id": 71,
+        "score": -0.1000335127941873
+      },
+      "bmi": {
+        "raw_value": 27.8,
+        "bin_id": 146,
+        "score": 0.10138449515214285
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.03234351985543587,
+    "manual_reconstructed_proba": 0.02470078407487487,
+    "actual_label": null
+  },
+  {
+    "patient_id": 30,
+    "raw_features": {
+      "gender": "Female",
+      "age": 51.0,
+      "hypertension": 1,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 88.2,
+      "bmi": 28.4,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 51.0,
+        "bin_id": 72,
+        "score": 0.8287005546704309
+      },
+      "hypertension": {
+        "raw_value": 1,
+        "bin_id": 1,
+        "score": -0.06335893147709369
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 88.2,
+        "bin_id": 454,
+        "score": -0.13334049217056407
+      },
+      "bmi": {
+        "raw_value": 28.4,
+        "bin_id": 152,
+        "score": 0.09628963852291675
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.05020726971081046,
+    "manual_reconstructed_proba": 0.022118663858298068,
+    "actual_label": null
+  },
+  {
+    "patient_id": 31,
+    "raw_features": {
+      "gender": "Female",
+      "age": 4.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 104.95,
+      "bmi": 28.8,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 4.0,
+        "bin_id": 25,
+        "score": -1.9627126359821885
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 104.95,
+        "bin_id": 681,
+        "score": -0.02043034620878779
+      },
+      "bmi": {
+        "raw_value": 28.8,
+        "bin_id": 156,
+        "score": 0.07090703304282517
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.0009835775121151745,
+    "manual_reconstructed_proba": 0.0014838142410863087,
+    "actual_label": null
+  },
+  {
+    "patient_id": 32,
+    "raw_features": {
+      "gender": "Female",
+      "age": 44.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Govt_job",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 57.33,
+      "bmi": 24.6,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 44.0,
+        "bin_id": 65,
+        "score": 0.3762706455706341
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Govt_job",
+        "bin_id": 1,
+        "score": -0.026311113656796288
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 57.33,
+        "bin_id": 18,
+        "score": -0.36423861886987086
+      },
+      "bmi": {
+        "raw_value": 24.6,
+        "bin_id": 114,
+        "score": 0.06699769328271472
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.012063394293688126,
+    "manual_reconstructed_proba": 0.012830529514340615,
+    "actual_label": null
+  },
+  {
+    "patient_id": 33,
+    "raw_features": {
+      "gender": "Female",
+      "age": 33.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 71.16,
+      "bmi": 46.5,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 33.0,
+        "bin_id": 54,
+        "score": -1.5476289878871827
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 71.16,
+        "bin_id": 169,
+        "score": -0.040782827063678806
+      },
+      "bmi": {
+        "raw_value": 46.5,
+        "bin_id": 326,
+        "score": 0.04816113172969452
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.002266232512740608,
+    "manual_reconstructed_proba": 0.002474371699325922,
+    "actual_label": null
+  },
+  {
+    "patient_id": 34,
+    "raw_features": {
+      "gender": "Female",
+      "age": 45.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 55.67,
+      "bmi": 23.1,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 45.0,
+        "bin_id": 66,
+        "score": 0.39457031588763164
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 55.67,
+        "bin_id": 3,
+        "score": -0.3524237198268691
+      },
+      "bmi": {
+        "raw_value": 23.1,
+        "bin_id": 99,
+        "score": 0.030408196647239004
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.015991451156543147,
+    "manual_reconstructed_proba": 0.013384644825856436,
+    "actual_label": null
+  },
+  {
+    "patient_id": 35,
+    "raw_features": {
+      "gender": "Male",
+      "age": 59.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 118.03,
+      "bmi": 35.5,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 59.0,
+        "bin_id": 80,
+        "score": 1.2387503431016842
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 118.03,
+        "bin_id": 788,
+        "score": 0.05849487322518948
+      },
+      "bmi": {
+        "raw_value": 35.5,
+        "bin_id": 223,
+        "score": 0.06941437194969066
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.04298682250893847,
+    "manual_reconstructed_proba": 0.034182707354425176,
+    "actual_label": null
+  },
+  {
+    "patient_id": 36,
+    "raw_features": {
+      "gender": "Male",
+      "age": 65.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 105.61,
+      "bmi": 27.9,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 65.0,
+        "bin_id": 86,
+        "score": 1.3452147631467826
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 105.61,
+        "bin_id": 685,
+        "score": -0.016774496031202964
+      },
+      "bmi": {
+        "raw_value": 27.9,
+        "bin_id": 147,
+        "score": 0.10236440702556787
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.03738756534889523,
+    "manual_reconstructed_proba": 0.030059139510999092,
+    "actual_label": null
+  },
+  {
+    "patient_id": 37,
+    "raw_features": {
+      "gender": "Male",
+      "age": 9.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 150.0,
+      "bmi": 17.4,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 9.0,
+        "bin_id": 30,
+        "score": -1.8978149484768478
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 150.0,
+        "bin_id": 877,
+        "score": 0.15362388647869812
+      },
+      "bmi": {
+        "raw_value": 17.4,
+        "bin_id": 42,
+        "score": -0.6541275034659114
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.00022058524546725365,
+    "manual_reconstructed_proba": 0.0010539372632774075,
+    "actual_label": null
+  },
+  {
+    "patient_id": 38,
+    "raw_features": {
+      "gender": "Female",
+      "age": 22.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Govt_job",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 87.25,
+      "bmi": 24.9,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 22.0,
+        "bin_id": 43,
+        "score": -1.67393979939126
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Govt_job",
+        "bin_id": 1,
+        "score": -0.026311113656796288
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 87.25,
+        "bin_id": 440,
+        "score": -0.1368837764574695
+      },
+      "bmi": {
+        "raw_value": 24.9,
+        "bin_id": 117,
+        "score": 0.0685245593484628
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.0014465121970653058,
+    "manual_reconstructed_proba": 0.0019219897860751553,
+    "actual_label": null
+  },
+  {
+    "patient_id": 39,
+    "raw_features": {
+      "gender": "Female",
+      "age": 79.0,
+      "hypertension": 0,
+      "heart_disease": 1,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 68.4,
+      "bmi": 22.1,
+      "smoking_status": "formerly smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 79.0,
+        "bin_id": 100,
+        "score": 2.2027894687450233
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 1,
+        "bin_id": 1,
+        "score": -0.033956026594095946
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 68.4,
+        "bin_id": 129,
+        "score": -0.05752710674828961
+      },
+      "bmi": {
+        "raw_value": 22.1,
+        "bin_id": 89,
+        "score": -0.019678310127906065
+      },
+      "smoking_status": {
+        "raw_value": "formerly smoked",
+        "bin_id": 2,
+        "score": 0.0772991020183794
+      }
+    },
+    "ebm_predict_proba": 0.14688236576002411,
+    "manual_reconstructed_proba": 0.08649842559869336,
+    "actual_label": null
+  },
+  {
+    "patient_id": 40,
+    "raw_features": {
+      "gender": "Female",
+      "age": 51.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 95.98,
+      "bmi": 40.1,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 51.0,
+        "bin_id": 72,
+        "score": 0.8287005546704309
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 95.98,
+        "bin_id": 571,
+        "score": -0.0901360965329322
+      },
+      "bmi": {
+        "raw_value": 40.1,
+        "bin_id": 269,
+        "score": 0.059108660239226944
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.03510687254015473,
+    "manual_reconstructed_proba": 0.0272505249953456,
+    "actual_label": null
+  },
+  {
+    "patient_id": 41,
+    "raw_features": {
+      "gender": "Female",
+      "age": 29.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 108.75,
+      "bmi": 24.1,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 29.0,
+        "bin_id": 50,
+        "score": -1.5917678130295019
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 108.75,
+        "bin_id": 715,
+        "score": 0.005845637562631201
+      },
+      "bmi": {
+        "raw_value": 24.1,
+        "bin_id": 109,
+        "score": 0.06156304160552995
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.0012163281500548713,
+    "manual_reconstructed_proba": 0.001735366805191421,
+    "actual_label": null
+  },
+  {
+    "patient_id": 42,
+    "raw_features": {
+      "gender": "Male",
+      "age": 0.32,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 89.04,
+      "bmi": 17.8,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 0.32,
+        "bin_id": 3,
+        "score": -2.1966460653341455
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 89.04,
+        "bin_id": 467,
+        "score": -0.12666703275756006
+      },
+      "bmi": {
+        "raw_value": 17.8,
+        "bin_id": 46,
+        "score": -0.6396672866463904
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.00010691436812164944,
+    "manual_reconstructed_proba": 0.0005994911473763271,
+    "actual_label": null
+  },
+  {
+    "patient_id": 43,
+    "raw_features": {
+      "gender": "Female",
+      "age": 63.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 60.22,
+      "bmi": 29.2,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 63.0,
+        "bin_id": 84,
+        "score": 1.309676078082378
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 60.22,
+        "bin_id": 41,
+        "score": -0.10954073875415901
+      },
+      "bmi": {
+        "raw_value": 29.2,
+        "bin_id": 160,
+        "score": 0.07065378074996215
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.03734584402115213,
+    "manual_reconstructed_proba": 0.03446353843307995,
+    "actual_label": null
+  },
+  {
+    "patient_id": 44,
+    "raw_features": {
+      "gender": "Female",
+      "age": 5.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 88.44,
+      "bmi": 18.0,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 5.0,
+        "bin_id": 26,
+        "score": -1.9471747537166517
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 88.44,
+        "bin_id": 457,
+        "score": -0.1324180280390072
+      },
+      "bmi": {
+        "raw_value": 18.0,
+        "bin_id": 48,
+        "score": -0.6340061069700135
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.00027579332399982505,
+    "manual_reconstructed_proba": 0.0006663577164916915,
+    "actual_label": null
+  },
+  {
+    "patient_id": 45,
+    "raw_features": {
+      "gender": "Male",
+      "age": 50.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 192.16,
+      "bmi": 43.6,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 50.0,
+        "bin_id": 71,
+        "score": 0.8087672404364433
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 192.16,
+        "bin_id": 922,
+        "score": 0.4016343444415136
+      },
+      "bmi": {
+        "raw_value": 43.6,
+        "bin_id": 301,
+        "score": 0.02421264465717389
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.03686801703617404,
+    "manual_reconstructed_proba": 0.028428662164136594,
+    "actual_label": null
+  },
+  {
+    "patient_id": 46,
+    "raw_features": {
+      "gender": "Male",
+      "age": 39.0,
+      "hypertension": 1,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 80.99,
+      "bmi": 39.8,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 39.0,
+        "bin_id": 60,
+        "score": -1.4541170894091855
+      },
+      "hypertension": {
+        "raw_value": 1,
+        "bin_id": 1,
+        "score": -0.06335893147709369
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 80.99,
+        "bin_id": 324,
+        "score": -0.1663934291160999
+      },
+      "bmi": {
+        "raw_value": 39.8,
+        "bin_id": 266,
+        "score": 0.059937434066474206
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.02117836866399384,
+    "manual_reconstructed_proba": 0.0018132794008334143,
+    "actual_label": null
+  },
+  {
+    "patient_id": 47,
+    "raw_features": {
+      "gender": "Female",
+      "age": 30.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 75.19,
+      "bmi": 37.0,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 30.0,
+        "bin_id": 51,
+        "score": -1.574826586366318
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 75.19,
+        "bin_id": 234,
+        "score": -0.028967060573237995
+      },
+      "bmi": {
+        "raw_value": 37.0,
+        "bin_id": 238,
+        "score": 0.07797310974068591
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.0031660838472152893,
+    "manual_reconstructed_proba": 0.002505708567710249,
+    "actual_label": null
+  },
+  {
+    "patient_id": 48,
+    "raw_features": {
+      "gender": "Male",
+      "age": 49.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 220.47,
+      "bmi": 36.4,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 49.0,
+        "bin_id": 70,
+        "score": 0.7840573065009256
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 220.47,
+        "bin_id": 976,
+        "score": 0.47716906828301203
+      },
+      "bmi": {
+        "raw_value": 36.4,
+        "bin_id": 232,
+        "score": 0.06892099727520384
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.0366170305001962,
+    "manual_reconstructed_proba": 0.03299757238593463,
+    "actual_label": null
+  },
+  {
+    "patient_id": 49,
+    "raw_features": {
+      "gender": "Female",
+      "age": 60.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 85.6,
+      "bmi": 34.5,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 60.0,
+        "bin_id": 81,
+        "score": 1.25984187606788
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 85.6,
+        "bin_id": 409,
+        "score": -0.14768501119866673
+      },
+      "bmi": {
+        "raw_value": 34.5,
+        "bin_id": 213,
+        "score": 0.07126505351025561
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.029722398507576003,
+    "manual_reconstructed_proba": 0.02768225332431922,
+    "actual_label": null
+  },
+  {
+    "patient_id": 50,
+    "raw_features": {
+      "gender": "Female",
+      "age": 10.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 93.29,
+      "bmi": 20.6,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 10.0,
+        "bin_id": 31,
+        "score": -1.8899939216301571
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 93.29,
+        "bin_id": 536,
+        "score": -0.10330459054103497
+      },
+      "bmi": {
+        "raw_value": 20.6,
+        "bin_id": 74,
+        "score": 0.12843972541081639
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.0008339869828072762,
+    "manual_reconstructed_proba": 0.0015556930483782245,
+    "actual_label": null
+  },
+  {
+    "patient_id": 51,
+    "raw_features": {
+      "gender": "Male",
+      "age": 53.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 142.64,
+      "bmi": 27.8,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 53.0,
+        "bin_id": 74,
+        "score": 0.8560975345144274
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 142.64,
+        "bin_id": 864,
+        "score": 0.13921710147215038
+      },
+      "bmi": {
+        "raw_value": 27.8,
+        "bin_id": 146,
+        "score": 0.10138449515214285
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.04803332571692008,
+    "manual_reconstructed_proba": 0.03846536481936766,
+    "actual_label": null
+  },
+  {
+    "patient_id": 52,
+    "raw_features": {
+      "gender": "Female",
+      "age": 2.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 126.12,
+      "bmi": 24.8,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 2.0,
+        "bin_id": 23,
+        "score": -1.9781321296709187
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 126.12,
+        "bin_id": 824,
+        "score": 0.08716806007320389
+      },
+      "bmi": {
+        "raw_value": 24.8,
+        "bin_id": 116,
+        "score": 0.0681681047876011
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.000515055102566762,
+    "manual_reconstructed_proba": 0.0016224171874972707,
+    "actual_label": null
+  },
+  {
+    "patient_id": 53,
+    "raw_features": {
+      "gender": "Male",
+      "age": 37.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 66.17,
+      "bmi": 26.1,
+      "smoking_status": "never smoked"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 37.0,
+        "bin_id": 58,
+        "score": -1.4868840070085834
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Private",
+        "bin_id": 3,
+        "score": 0.023005980556071948
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 66.17,
+        "bin_id": 102,
+        "score": -0.0826815131064741
+      },
+      "bmi": {
+        "raw_value": 26.1,
+        "bin_id": 129,
+        "score": 0.08542309703606737
+      },
+      "smoking_status": {
+        "raw_value": "never smoked",
+        "bin_id": 3,
+        "score": 0.008828685554273996
+      }
+    },
+    "ebm_predict_proba": 0.002154258844876664,
+    "manual_reconstructed_proba": 0.0023986250552028234,
+    "actual_label": null
+  },
+  {
+    "patient_id": 54,
+    "raw_features": {
+      "gender": "Female",
+      "age": 8.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 80.47,
+      "bmi": 20.6,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 8.0,
+        "bin_id": 29,
+        "score": -1.9023884682178067
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 80.47,
+        "bin_id": 315,
+        "score": -0.1673481647720782
+      },
+      "bmi": {
+        "raw_value": 20.6,
+        "bin_id": 74,
+        "score": 0.12843972541081639
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.0007314158431425684,
+    "manual_reconstructed_proba": 0.0015711083495792712,
+    "actual_label": null
+  },
+  {
+    "patient_id": 55,
+    "raw_features": {
+      "gender": "Male",
+      "age": 17.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "Self-employed",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 98.42,
+      "bmi": 23.4,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 17.0,
+        "bin_id": 38,
+        "score": -1.7269368704447432
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 98.42,
+        "bin_id": 604,
+        "score": -0.07364020753530282
+      },
+      "bmi": {
+        "raw_value": 23.4,
+        "bin_id": 102,
+        "score": 0.03431739541620237
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.0005972557214493809,
+    "manual_reconstructed_proba": 0.001158742928952973,
+    "actual_label": null
+  },
+  {
+    "patient_id": 56,
+    "raw_features": {
+      "gender": "Female",
+      "age": 79.0,
+      "hypertension": 0,
+      "heart_disease": 1,
+      "ever_married": "Yes",
+      "work_type": "Self-employed",
+      "Residence_type": "Urban",
+      "avg_glucose_level": 67.84,
+      "bmi": 25.2,
+      "smoking_status": "smokes"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Female",
+        "bin_id": 1,
+        "score": -0.0232029219162417
+      },
+      "age": {
+        "raw_value": 79.0,
+        "bin_id": 100,
+        "score": 2.2027894687450233
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 1,
+        "bin_id": 1,
+        "score": -0.033956026594095946
+      },
+      "ever_married": {
+        "raw_value": "Yes",
+        "bin_id": 2,
+        "score": 0.030520321746251907
+      },
+      "work_type": {
+        "raw_value": "Self-employed",
+        "bin_id": 4,
+        "score": -0.28312315740399224
+      },
+      "Residence_type": {
+        "raw_value": "Urban",
+        "bin_id": 2,
+        "score": 0.04275025259954705
+      },
+      "avg_glucose_level": {
+        "raw_value": 67.84,
+        "bin_id": 117,
+        "score": -0.0613162704162564
+      },
+      "bmi": {
+        "raw_value": 25.2,
+        "bin_id": 120,
+        "score": 0.07307177514429485
+      },
+      "smoking_status": {
+        "raw_value": "smokes",
+        "bin_id": 4,
+        "score": 0.15335911026011792
+      }
+    },
+    "ebm_predict_proba": 0.12303972988092413,
+    "manual_reconstructed_proba": 0.07597975244033699,
+    "actual_label": null
+  },
+  {
+    "patient_id": 57,
+    "raw_features": {
+      "gender": "Male",
+      "age": 5.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 163.7,
+      "bmi": 18.4,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 5.0,
+        "bin_id": 26,
+        "score": -1.9471747537166517
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 163.7,
+        "bin_id": 895,
+        "score": 0.2912263612322944
+      },
+      "bmi": {
+        "raw_value": 18.4,
+        "bin_id": 52,
+        "score": -0.612566430278701
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.00028269858925762556,
+    "manual_reconstructed_proba": 0.0011007327270303674,
+    "actual_label": null
+  },
+  {
+    "patient_id": 58,
+    "raw_features": {
+      "gender": "Male",
+      "age": 9.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 76.88,
+      "bmi": 18.0,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 9.0,
+        "bin_id": 30,
+        "score": -1.8978149484768478
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 76.88,
+        "bin_id": 257,
+        "score": -0.025398500850955713
+      },
+      "bmi": {
+        "raw_value": 18.0,
+        "bin_id": 48,
+        "score": -0.6340061069700135
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.0005637496370631771,
+    "manual_reconstructed_proba": 0.0008249334233325369,
+    "actual_label": null
+  },
+  {
+    "patient_id": 59,
+    "raw_features": {
+      "gender": "Male",
+      "age": 8.0,
+      "hypertension": 0,
+      "heart_disease": 0,
+      "ever_married": "No",
+      "work_type": "children",
+      "Residence_type": "Rural",
+      "avg_glucose_level": 78.05,
+      "bmi": 25.7,
+      "smoking_status": "Unknown"
+    },
+    "feature_bins": {
+      "gender": {
+        "raw_value": "Male",
+        "bin_id": 2,
+        "score": 0.034052485583223616
+      },
+      "age": {
+        "raw_value": 8.0,
+        "bin_id": 29,
+        "score": -1.9023884682178067
+      },
+      "hypertension": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "heart_disease": {
+        "raw_value": 0,
+        "bin_id": 0,
+        "score": 0.0
+      },
+      "ever_married": {
+        "raw_value": "No",
+        "bin_id": 1,
+        "score": -0.057607107296050473
+      },
+      "work_type": {
+        "raw_value": "children",
+        "bin_id": 5,
+        "score": 0.25402799401840037
+      },
+      "Residence_type": {
+        "raw_value": "Rural",
+        "bin_id": 1,
+        "score": -0.043563496479332775
+      },
+      "avg_glucose_level": {
+        "raw_value": 78.05,
+        "bin_id": 274,
+        "score": -0.02323443459122187
+      },
+      "bmi": {
+        "raw_value": 25.7,
+        "bin_id": 125,
+        "score": 0.08075581450930491
+      },
+      "smoking_status": {
+        "raw_value": "Unknown",
+        "bin_id": 1,
+        "score": -0.12991327256022048
+      }
+    },
+    "ebm_predict_proba": 0.0015092751714541716,
+    "manual_reconstructed_proba": 0.0016804192472825476,
+    "actual_label": null
+  }
+]
